@@ -13,18 +13,14 @@ class MatchesController < ApplicationController
     if @match.save
       flash[:success] = "Match #{@match.id} created."
       redirect_to root_url
-    else # handle validation errors
-      @winner = @match.winner_id
-      @loser = @match.loser_id
-      @winner_stock = @match.winner_stock
-      @wcharacter = @match.wcharacter_id
-      @lcharacter = @match.lcharacter_id
+    else
       render 'new'
     end
   end
 
   def index
-  	@matches = Match.includes(:lcharacter, :wcharacter, :winner, :loser).paginate(:page => params[:page], :per_page => 30)
+    @matches = Match.includes(:lcharacter, :wcharacter, :winner, :loser).page(params[:page]).per(30)
+    @numMatches = Match.all.count
   end
 
   def show

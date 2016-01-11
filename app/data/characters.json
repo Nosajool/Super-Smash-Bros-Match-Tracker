@@ -1,7 +1,11 @@
-[{"name":"Bowser","imagename":"Bowser","colour":"32765C"},
+[
+{"name":"Bayonetta","imagename":"Bayonetta","colour":"A79FE5"},
+{"name":"Bowser","imagename":"Bowser","colour":"32765C"},
 {"name":"Bowser Jr.","imagename":"BowserJr","colour":"cfce37"},
 {"name":"Captain Falcon","imagename":"CaptainFalcon","colour":"9088e2"},
 {"name":"Charizard","imagename":"Charizard","colour":"F26B0F"},
+{"name":"Cloud","imagename":"Cloud","colour":"009684"},
+{"name":"Corrin","imagename":"Corrin","colour":"4BA9C3"},
 {"name":"Dark Pit","imagename":"DarkPit","colour":"af6ceb"},
 {"name":"Diddy Kong","imagename":"DiddyKong","colour":"F24D49"},
 {"name":"Donkey Kong","imagename":"DonkeyKong","colour":"FEDA00"},
@@ -18,12 +22,14 @@
 {"name":"Link","imagename":"Link","colour":"BED163"},
 {"name":"Little Mac","imagename":"LittleMac","colour":"39775A"},
 {"name":"Lucario","imagename":"Lucario","colour":"AEE4FF"},
+{"name":"Lucas","imagename":"Lucas","colour":"F05F1B"},
 {"name":"Lucina","imagename":"Lucina","colour":"74a7ca"},
 {"name":"Luigi","imagename":"Luigi","colour":"41A732"},
 {"name":"Mario","imagename":"Mario","colour":"E03038"},
 {"name":"Marth","imagename":"Marth","colour":"3EAACC"},
 {"name":"Mega Man","imagename":"MegaMan","colour":"75C2E3"},
 {"name":"Meta Knight","imagename":"MetaKnight","colour":"2d3d7a"},
+{"name":"Mewtwo","imagename":"Mewtwo","colour":"8054C3"},
 {"name":"Mii Brawler","imagename":"MiiBrawler","colour":"5CC1E6"},
 {"name":"Mii Gunner","imagename":"MiiGunner","colour":"5CC1E6"},
 {"name":"Mii Swordfighter","imagename":"MiiSwordfighter","colour":"5CC1E6"},
@@ -38,6 +44,8 @@
 {"name":"R.O.B.","imagename":"ROB","colour":"b2b9bf"},
 {"name":"Robin","imagename":"Robin","colour":"#ce82de"},
 {"name":"Rosalina & Luma","imagename":"RosalinaLuma","colour":"89E0D5"},
+{"name":"Roy","imagename":"Roy","colour":"5CB94D"},
+{"name":"Ryu","imagename":"Ryu","colour":"E04447"},
 {"name":"Samus","imagename":"Samus","colour":"333F58"},
 {"name":"Sheik","imagename":"Sheik","colour":"7371D8"},
 {"name":"Shulk","imagename":"Shulk","colour":"e55b79"},
@@ -48,4 +56,5 @@
 {"name":"Wii Fit Trainer","imagename":"WiiFitTrainer","colour":"86D776"},
 {"name":"Yoshi","imagename":"Yoshi","colour":"68D154"},
 {"name":"Zelda","imagename":"Zelda","colour":"AA74BA"},
-{"name":"Zero Suit Samus","imagename":"ZeroSuitSamus","colour":"005AAA"}]
+{"name":"Zero Suit Samus","imagename":"ZeroSuitSamus","colour":"005AAA"}
+]

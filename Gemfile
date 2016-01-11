@@ -40,6 +40,10 @@ group :development, :test do
 	gem 'better_errors'
 end
 
+group :test do
+  gem 'minitest-reporters'
+end
+
 group :production do
 	gem 'rails_12factor'
 end
